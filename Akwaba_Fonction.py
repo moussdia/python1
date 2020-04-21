@@ -1,14 +1,15 @@
 # 
+
 #TP COMPRENDRE LES FONCTIONS
 
 #Affiche le contenu de print 
 print ("Akwaba Python Calculator")
 '''
-#Declare l'argument de ma fonction et renvoyer les valeurs 'x' et 'y'
+#Declarer l'argument de ma fonction et renvoyer les valeurs 'x' et 'y'
 def somme (x,y):
     return x + y
 
-#Definir la fonction 'main' qui va faire la somme et afficher la somme de x et y 
+#Definir la fonction 'main' qui va faire la somme des entiers x et y, afficher la somme de x et y 
 def main():
     print("Faire la somme x et y")
     x = int(input("Premier chiffre est:"))
@@ -17,8 +18,9 @@ def main():
     print("La somme de ", x ,"et", y ,"est",
 resultat)
 
-
+# 
 if __name__=="__main__":
+
 #Appel la fonction 'main()'	
     main()
 '''
@@ -43,5 +45,3 @@ resultat)
 if __name__=="__main__":
 #Appel la fonction 'main()'	
     main()
-    
-    
